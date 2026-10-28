@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhafa Business Solutions</title>
+    <style>
+        /* CSS Sama seperti struktur aslinya, namun warna tema diubah ke nuansa Bisnis Profesional (Navy & Gold) */
+        :root {
+            --primary-color: #0f172a; /* Navy Elegan */
+            --accent-color: #d97706;  /* Gold/Bronze Profesional */
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            font-size: 2rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            border-top: 4px solid var(--accent-color);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            color: var(--text-color);
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--primary-color);
+            color: var(--white);
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rhafa Business Solutions</h1>
+        <p>Strategi Modern untuk Pertumbuhan & Ekosistem Bisnis yang Berkelanjutan</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Layanan Strategis Kami</h2>
+        
+        <div class="card-grid">
+            <div class="card">
+                <h3>Konsultasi Manajemen</h3>
+                <p>Membantu perusahaan merancang restrukturisasi organisasi, efisiensi operasional, dan perencanaan jangka panjang yang terukur.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Transformasi Digital</h3>
+                <p>Mengintegrasikan teknologi mutakhir ke dalam lini operasional bisnis untuk meningkatkan produktivitas dan daya saing pasar.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Analisis Pasar & Finansial</h3>
+                <p>Menyediakan riset data mendalam serta proyeksi keuangan yang akurat guna meminimalkan risiko investasi bisnis Anda.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <span>Rhafa Business Solutions</span>. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
